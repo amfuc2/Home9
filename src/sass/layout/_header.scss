@@ -83,7 +83,7 @@ nav {
   white-space: nowrap;
   position: relative;
   top: 350px;
-  left: 200px;
+  left: 230px;
 
   b {
     font-family: $Raleway;
@@ -102,7 +102,7 @@ nav {
   display: inline-block;
   position: relative;
   top: 375px;
-  left: 300px;
+  left: 330px;
 }
 
 .button-learn-more {
@@ -119,34 +119,41 @@ nav {
   text-decoration: none;
   position: relative;
   top: 400px;
-  left: 500px;
+  left: 530px;
 
   &:hover {
     background: rgba(0, 182, 203, 1);
+    transition: background-color 2s ease-in 0.3s;
   }
 }
 
-/*.circle {
+.slider-title {
   display: flex;
-  flex-direction: row;
+  justify-content: center;
+  vertical-align: middle;
   position: relative;
-  top: 500px;
-  left: 475px;
+  top: 450px;
+  right: 30px;
   li {
     list-style: none;
-    display: flex;
-    margin-right: 5px;
-    width: 15px;
-    a {
-      width: 10px;
-      height: 10px;
-      border: 2px solid #ffffff;
+    float: left;
+    a{
+      text-decoration: none;
+      background-color: #5a5a5a;
+      border: 2px solid white;
       border-radius: 50%;
-      background: rgba(255, 255, 255, 0);
+      padding: 10px;
+      font-size: 1px;
+      color: white;
+
+      &:hover {
+        background-color: white;
+        transition: background-color 2s ease-in 0.3s;
+      }
 
       &:active {
-        background: rgba(255, 255, 255, 1);
+        background-color: white;
       }
     }
   }
-}*/
+}
