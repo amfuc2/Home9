@@ -1,6 +1,4 @@
-$Raleway: "Raleway", Arial, Serif, sans-serif;
-$Proxima: "Proxima Nova", Arial, Serif, sans-serif;
-$primary-color: rgb(255, 255, 255);
+
 
 header {
   background: url("../img/first-background.png") #666666 50% 50% no-repeat;
@@ -101,10 +99,10 @@ nav {
   color: $primary-color;
   font-size: 24px;
   line-height: 60px;
-  display: flex;
-  justify-content: center;
+  display: inline-block;
   position: relative;
-  top: 350px;
+  top: 375px;
+  left: 300px;
 }
 
 .button-learn-more {
@@ -128,7 +126,7 @@ nav {
   }
 }
 
-.circle {
+/*.circle {
   display: flex;
   flex-direction: row;
   position: relative;
@@ -138,6 +136,7 @@ nav {
     list-style: none;
     display: flex;
     margin-right: 5px;
+    width: 15px;
     a {
       width: 10px;
       height: 10px;
@@ -150,4 +149,4 @@ nav {
       }
     }
   }
-}
+}*/
