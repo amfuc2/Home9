@@ -1,0 +1,87 @@
+.pricing {
+  margin-top: 50px;
+  span {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    line-height: 96px;
+    color: #576671;
+    font-family: $Raleway;
+    font-size: 60px;
+    font-weight: 200;
+    letter-spacing: 1.5px;
+  }
+  p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: $Proxima;
+    font-weight: 400;
+    letter-spacing: 0.45px;
+    color: #87949e;
+    font-size: 18px;
+    line-height: 96px;
+  }
+}
+
+.price-block {
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  float: left;
+  width: 250px;
+  border: 1px solid #4e5159;
+  .price {
+    color: #17daa3;
+    font-family: $Raleway;
+    font-style: italic;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 96px;
+    letter-spacing: 1.5px;
+    display: block;
+  }
+  .licence {
+    opacity: 0.45;
+    color: #87949e;
+    font-family: $Proxima;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 96px;
+    letter-spacing: 0.45px;
+  }
+  p {
+    width: 224px;
+    color: #87949e;
+    font-family: $Proxima;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0.45px;
+  }
+  a {
+    width: 230px;
+    height: 70px;
+    color: #ffffff;
+    font-family: Proxima;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+    letter-spacing: 0.45px;
+    box-shadow: 0 0 35px rgba(227, 227, 227, 0.35);
+    border-radius: 5px;
+    background-color: #17daa3;
+    display: block;
+    text-decoration: none;
+    padding-left: 20px;
+    border: 1px solid #4e5159;
+    &:hover {
+      background-color: #4e5159;
+      transition: background-color 6s ease-in 0.3s;
+    }
+  }
+}
+
+.different-blocks {
+  margin-right: 24px;
+  margin-left: 24px;
+}
