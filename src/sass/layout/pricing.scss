@@ -61,7 +61,7 @@
     width: 230px;
     height: 70px;
     color: #ffffff;
-    font-family: Proxima;
+    font-family: $Proxima;
     font-size: 18px;
     font-weight: 700;
     line-height: 48px;
@@ -84,4 +84,10 @@
 .different-blocks {
   margin-right: 24px;
   margin-left: 24px;
+}
+
+.map {
+  float: left;
+  width: 50%;
+  height: 50%;
 }
