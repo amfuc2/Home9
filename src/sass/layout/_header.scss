@@ -1,0 +1,153 @@
+$Raleway: "Raleway", Arial, Serif, sans-serif;
+$Proxima: "Proxima Nova", Arial, Serif, sans-serif;
+$primary-color: rgb(255, 255, 255);
+
+header {
+  background: url("../img/first-background.png") #666666 50% 50% no-repeat;
+  height: 1068px;
+}
+
+nav {
+  float: right;
+}
+
+.menu {
+  li {
+    list-style: none;
+    margin-left: 50px;
+    float: left;
+    .navigation {
+      text-decoration: none;
+      font-size: 14px;
+      font-family: $Raleway;
+      color: $primary-color;
+      font-weight: bold;
+      line-height: 1.714;
+      text-align: center;
+      padding: 5px 10px;
+    }
+    &:hover {
+      opacity: 0.7;
+      transition: opacity 2s ease-in 0.3s;
+    }
+  }
+}
+
+.search:hover {
+  opacity: 0.7;
+  transition: opacity 2s ease-in 0.3s;
+}
+
+.logo {
+  position: relative;
+  top: 10px;
+}
+
+.slider-button-left {
+  text-decoration: none;
+  font-family: $Raleway;
+  font-size: 100px;
+  font-weight: bold;
+  color: #5a5a5a;
+  position: absolute;
+  top: 400px;
+
+  &:hover {
+    opacity: 0.7;
+    transition: opacity 2s ease-in 0.3s;
+  }
+}
+
+.slider-button-right {
+  text-decoration: none;
+  font-family: $Raleway;
+  font-size: 100px;
+  font-weight: bold;
+  color: #5a5a5a;
+  position: absolute;
+  top: 400px;
+  right: 0;
+
+  &:hover {
+    opacity: 0.7;
+    transition: opacity 2s ease-in 0.3s;
+  }
+}
+
+.title {
+  color: $primary-color;
+  font-weight: 300;
+  line-height: 60px;
+  font-family: $Raleway;
+  font-size: 50px;
+  letter-spacing: 1.5px;
+  display: inline-block;
+  white-space: nowrap;
+  position: relative;
+  top: 350px;
+  left: 200px;
+
+  b {
+    font-family: $Raleway;
+    font-size: 50px;
+    font-weight: 700;
+  }
+}
+
+.under-title {
+  font-family: $Proxima;
+  font-weight: 300;
+  letter-spacing: 0.6px;
+  color: $primary-color;
+  font-size: 24px;
+  line-height: 60px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 350px;
+}
+
+.button-learn-more {
+  color: #ffffff;
+  font-family: $Raleway;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.35px;
+  border-radius: 24px;
+  border: 2px solid #ffffff;
+  background: rgba(0, 182, 203, 0);
+  padding: 10px 20px;
+  text-decoration: none;
+  position: relative;
+  top: 400px;
+  left: 500px;
+
+  &:hover {
+    background: rgba(0, 182, 203, 1);
+  }
+}
+
+.circle {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 500px;
+  left: 475px;
+  li {
+    list-style: none;
+    display: flex;
+    margin-right: 5px;
+    a {
+      width: 10px;
+      height: 10px;
+      border: 2px solid #ffffff;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0);
+
+      &:active {
+        background: rgba(255, 255, 255, 1);
+      }
+    }
+  }
+}
