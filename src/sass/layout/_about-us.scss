@@ -1,88 +1,14 @@
 .title-about-us {
   margin-top: 20px;
-  line-height: 96px;
-  color: #576671;
-  font-family: $Raleway;
-  font-size: 60px;
-  font-weight: 200;
-  letter-spacing: 1.5px;
-  display: block;
-  text-align: center;
-}
-
-
-.under-about-us {
-  font-family: $Raleway;
-  font-weight: 400;
-  letter-spacing: 0.45px;
-  color: #87949e;
-  font-size: 18px;
-  line-height: 96px;
-  display: block;
-  text-align: center;
 }
 
 .top-blocks {
   div {
     float: left;
-    width: 25%;
     margin-top: 10px;
     img {
-      padding: 30px;
-      color: #87949e;
-      background-color: #edeff1;
-      border-radius: 50%;
-      display: block;
       margin: 0 auto;
-
-      &:hover {
-        background-color: #17daa3;
-        transition: background-color 2s ease-in 0.3s;
-        }
-      }
     }
-    span {
-      color: #000000;
-      font-family: $Raleway;
-      font-size: 30px;
-      font-weight: 400;
-      line-height: 96px;
-      letter-spacing: 0.75px;
-      text-align: center;
-      display: flex;
-      justify-content: center;
-    }
-    p {
-      color: #87949e;
-      font-family: $Proxima;
-      font-size: 18px;
-      font-weight: 400;
-      line-height: 30px;
-      letter-spacing: 0.45px;
-      text-align: center;
-    }
-  }
-
-
-.learn-more {
-  color: #ffffff;
-  font-family: $Raleway;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 24px;
-  letter-spacing: 0.35px;
-  border-radius: 24px;
-  border: 2px solid #ffffff;
-  background-color: #17daa3;
-  display: block;
-  text-align: center;
-  padding: 10px 15px;
-  width: 180px;
-  text-decoration: none;
-
-  &:hover {
-    opacity: 0.7;
-    transition: opacity 2s ease-in 0.3s;
   }
 }
 
@@ -93,46 +19,10 @@
 .right-block {
   margin-top: 100px;
   float: right;
-  width: 50%;
   padding-right: 1px;
-  span {
-    color: #576671;
-    font-family: $Raleway;
-    font-style: italic;
-    font-size: 60px;
-    font-weight: 400;
-    line-height: 96px;
-    letter-spacing: 1.5px;
-  }
-  p {
-    color: #87949e;
-    font-family: $Proxima;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 36px;
-    letter-spacing: 0.45px;
-  }
 }
 
 .left-block {
   margin-top: 100px;
   float: left;
-  width: 50%;
-  span {
-    color: #576671;
-    font-family: $Raleway;
-    font-style: italic;
-    font-size: 60px;
-    font-weight: 400;
-    line-height: 96px;
-    letter-spacing: 1.5px;
-  }
-  p {
-    color: #87949e;
-    font-family: $Proxima;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 36px;
-    letter-spacing: 0.45px;
-  }
 }

@@ -1,0 +1,87 @@
+.button-learn-more {
+  color: #ffffff;
+  font-family: $Raleway;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.35px;
+  border-radius: 24px;
+  border: 2px solid #ffffff;
+  background: rgba(0, 182, 203, 0);
+  padding: 10px 20px;
+  text-decoration: none;
+  position: relative;
+  top: 400px;
+  left: 530px;
+
+  &:hover {
+    background: rgba(0, 182, 203, 1);
+    transition: background-color 2s ease-in 0.3s;
+  }
+}
+
+.learn-more {
+  color: #ffffff;
+  font-family: $Raleway;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.35px;
+  border-radius: 24px;
+  border: 2px solid #ffffff;
+  background-color: #17daa3;
+  display: block;
+  text-align: center;
+  padding: 10px 15px;
+  width: 180px;
+  text-decoration: none;
+
+  &:hover {
+    opacity: 0.7;
+    transition: opacity 2s ease-in 0.3s;
+  }
+}
+
+.symu-co {
+  color: #ffffff;
+  font-family: $Raleway;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.35px;
+  border-radius: 24px;
+  background-color: #17daa3;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  &:hover {
+    opacity: 0.8;
+    transition: background-color 2s ease-in 0.3s;
+  }
+}
+
+.slider-button-left {
+  text-decoration: none;
+  font-family: $Raleway;
+  font-size: 100px;
+  font-weight: bold;
+  color: #5a5a5a;
+
+  &:hover {
+    opacity: 0.7;
+    transition: opacity 2s ease-in 0.3s;
+  }
+}
+
+.slider-button-right {
+  text-decoration: none;
+  font-family: $Raleway;
+  font-size: 100px;
+  font-weight: bold;
+  color: #5a5a5a;
+
+  &:hover {
+    opacity: 0.7;
+    transition: opacity 2s ease-in 0.3s;
+  }
+}

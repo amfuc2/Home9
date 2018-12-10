@@ -1,87 +1,30 @@
 .title-our-services {
   margin-top: 50px;
-  span {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    line-height: 96px;
-    color: #576671;
-    font-family: $Raleway;
-    font-size: 60px;
-    font-weight: 200;
-    letter-spacing: 1.5px;
-  }
-  p {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-family: $Proxima;
-    font-weight: 400;
-    letter-spacing: 0.45px;
-    color: #87949e;
-    font-size: 18px;
-    line-height: 96px
-  }
 }
 
 .types-of-services {
   float: left;
-  width: 50%;
   div {
     padding-left: 50px;
-    span {
-      color: #576671;
-      font-family: $Raleway;
-      font-size: 60px;
-      font-weight: 400;
-      line-height: 95.82px;
-      letter-spacing: 1.5px;
-      font-style: italic;
-    }
-    p {
-      color: #87949e;
-      font-family: $Proxima;
-      font-size: 18px;
-      font-weight: 400;
-      line-height: 47.91px;
-      letter-spacing: 0.45px;
-      width: 550px;
-    }
   }
 }
 
 .portfolio::before {
-  content: '';
   position: absolute;
   left: 5px;
-  background: url("../img/Portfolio.png") 50% 50% no-repeat;
-  width: 32px;
-  height: 32px;
 }
 
 .design::before {
-  content: '';
   position: absolute;
   right: 560px;
-  background: url("../img/Design.png") 50% 50% no-repeat;
-  width: 32px;
-  height: 32px;
 }
 
 .branding::before {
-  content: '';
   position: absolute;
   left: 5px;
-  background: url("../img/Branding.png") 50% 50% no-repeat;
-  width: 32px;
-  height: 32px;
 }
 
 .development::before {
-  content: '';
   position: absolute;
   right: 560px;
-  background: url("../img/Development.png") 50% 50% no-repeat;
-  width: 32px;
-  height: 32px;
 }

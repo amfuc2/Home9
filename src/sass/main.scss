@@ -3,6 +3,16 @@
 @import 'utils/variables';
 
 @import 'base/basic';
+@import 'base/typography';
+
+@import 'components/buttons';
+@import 'components/about-us';
+@import 'components/header';
+@import 'components/opinions';
+@import 'components/our-services';
+@import 'components/meet-our-team';
+@import 'components/pricing';
+@import 'components/symosu';
 
 @import 'layout/grid';
 @import 'layout/header';
@@ -13,5 +23,6 @@
 @import 'layout/pricing.scss';
 @import 'layout/symosu';
 @import 'layout/footer';
+
 
 @import 'pages/home';

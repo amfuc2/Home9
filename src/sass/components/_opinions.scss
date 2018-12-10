@@ -1,0 +1,51 @@
+.title-opinions {
+  color: $primary-color;
+  font-family: $Raleway;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 96px;
+  letter-spacing: 0.75px;
+  display: block;
+  text-align: center;
+
+  b {
+    color: #17daa3;
+    letter-spacing: 0.75px;
+  }
+}
+
+.under-title-opinions {
+  opacity: 0.3;
+  color: #ffffff;
+  font-family: $Raleway;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 96px;
+  letter-spacing: 0.45px;
+  display: block;
+  text-align: center;
+}
+
+.opinions {
+  li {
+    list-style: none;
+    a{
+      text-decoration: none;
+      background-color: #5a5a5a;
+      border: 2px solid white;
+      border-radius: 50%;
+      padding: 10px;
+      font-size: 1px;
+      color: white;
+
+      &:hover {
+        background-color: white;
+        transition: background-color 2s ease-in 0.3s;
+      }
+
+      &:active {
+        background-color: white;
+      }
+    }
+  }
+}

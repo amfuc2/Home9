@@ -1,0 +1,40 @@
+.last-background {
+  background: url("../img/Try our template.png") #666666 50% 50% no-repeat;
+  height: 700px;
+}
+
+.color-for-last {
+  background: #666666;
+  height: 700px;
+}
+
+.last-text {
+  display: flex;
+  text-align: center;
+  vertical-align: middle;
+  span {
+    color: #ffffff;
+    font-size: 60px;
+    line-height: 96px;
+    font-family: $Raleway;
+    font-weight: 200;
+    letter-spacing: 1.5px;
+    b {
+      color: #ffffff;
+      font-size: 60px;;
+      line-height: 96px;
+      font-family: $Raleway;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+    }
+  }
+}
+
+
+.symu-co {
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  height: 35px;
+  width: 200px;
+}
